@@ -1,0 +1,36 @@
+public class soru1 {
+    public static void main(String[] args) {
+        int sayi1 = 10;
+        int sayi2 = 20;
+
+        int toplam = sayi1 + sayi2;
+
+        System.out.println("Sayıların Toplamı: " + toplam);
+    }
+}
+
+Sayıların Toplamı: 30
+
+
+
+
+
+package com.company;
+import java.util.Scanner;
+public class soru2 {
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+
+        System.out.print("Birinci Sayıyı Girin: ");
+        int sayi1 = reader.nextInt();
+        System.out.print("İkinci Sayıyı Girin: ");
+        int sayi2 = reader.nextInt();
+
+        int toplam = sayi1 + sayi2;
+
+        System.out.println("Sayıların Toplamı: " + toplam);
+    }
+
+
+
+}
